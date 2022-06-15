@@ -5,7 +5,7 @@ import { render } from '@testing-library/react';
 import YouTube from 'react-youtube';
 import LoginSignup from './Componets/LoginSignup';
 
-const NODE_URL = 'http://127.0.0.1:3001'
+const NODE_URL = "https://xavflix-backend.herokuapp.com"
 const posterSite = "https://image.tmdb.org/t/p/w500"
 class App extends React.Component {
   constructor(props) {
