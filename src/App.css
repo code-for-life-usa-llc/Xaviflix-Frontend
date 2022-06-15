@@ -1,0 +1,206 @@
+html, body {
+  height: 100%;
+  background-color: black;
+  color: white;
+}
+#root {
+  height: 100%;
+}
+button {
+  cursor: pointer;
+}
+  .logo {
+    cursor: pointer;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    color: #106bcc;
+    float: left;
+    position: relative;
+    left: 1%;
+  }
+  .search-box {
+    float: left;
+    position: absolute;
+    left: 40%;
+  }
+  .user-name {
+    margin-right: 1rem;
+  }
+  .user-panel {
+    float: left;
+    position: relative;
+    left: 80%;
+  }
+  .movie-list-name {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+.movie-deets {
+  position: absolute;
+  padding: 0px 10px;
+  top: 50%;
+  height: 55vh;
+  width: 100vw;
+  background-color: rgba(1,1,1,0.5);
+  box-shadow: -1em -0.1em 2em black;
+  text-align: left;
+}
+/* banner styles */
+.banner {
+  background-color: rgba(0,0,0,0.9);
+  min-height:  20px;
+  position: fixed;
+  z-index: 10;
+  padding: 1rem;
+  height: 5rem;
+  width: 100%;
+}
+.search-bar {
+  background-color: #323030;
+  font-size: 1rem;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 0.4em;
+  color: white;
+}
+.search-button {
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.session-change {
+  background-color: #106bcc;
+  border: #106bcc;
+  color: white;
+  font-size: 1em;
+  padding: 0.5em 1em;
+  border-radius: 10px;
+  font-weight: 500;
+}
+/* end banner styles */
+/* ***************** */
+/* movie backdrop styles */
+.movie-backdrop {
+  position: relative;
+  height: 55vh;
+  min-height: 50px;
+  width: auto;
+  min-width: 320px;
+  background-color: white;
+  background-size: cover;
+  background-position: 50%;
+}
+.movie-deets h1 {
+  font-size: 3em;
+}
+.play-button {
+  background-color: #403f3f;
+  margin-top: 10px;
+  width: 8em;
+  color: red;
+  font-size: 1em;
+  font-weight: bold;
+  border-radius: 5px;
+  border: 0px;
+}
+/* end movie backdrop styles */
+/* ************************* */
+/* movie playlist styles */
+.movie-list {
+  overflow: auto;
+  height: 280px;
+  white-space: nowrap;
+}
+.movie-tile {
+  display: inline-block;
+  height: 250px;
+  width: 167px;
+  margin:0px 10px;
+  background-size: cover;
+}
+.movie-tile:hover {
+  box-shadow: 0.2em 0.2em 1em grey;
+}
+.movie-recommendations {
+  position: relative;
+  top: 5rem;
+}
+/* end movie playlist styles */
+.login-background {
+  background: url(https://i0.wp.com/www.mominzurich.com/wp-content/uploads/2014/04/bokeh-cover-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  height: 100%;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: black;
+  opacity: 1; /* Firefox */
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: black;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: black;
+}
+label.label {
+  color: #8c8b8b;
+}
+.user-box {
+  position: absolute;
+  width: 100%;
+  min-height: 400px;
+  top: 6rem;
+}
+.login-signup-btn {
+    height: 2rem;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 500;
+    background-color: #106bcc;
+    border: #106bcc;
+    border-radius: 5px;
+    color: white;
+    margin: 1rem 0rem;
+}
+.login-signup-header {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 1rem 0rem;
+  width: 20rem;
+}
+.login-box {
+  position: absolute;
+  left: 15%;
+}
+.signup-box {
+  position: absolute;
+  right: 15%;
+}
+.login-signup-box {
+    background-color: rgba(0, 0, 0, 0.76);
+    padding: 4rem;
+    border-radius: 10px;
+    height: 35rem;
+}
+.App-link {
+  color: #61dafb;
+}
+.search-section {
+  position: relative;
+  top: 6rem;
+}
+.exit-search {
+  position: relative;
+  left: 1%;
+  background-color: rgba(0, 0, 0, 0);
+  border: #262626;
+  color: white;
+  font-size: 2em;
+}
+.exit-search:hover {
+  color: grey;
+}
